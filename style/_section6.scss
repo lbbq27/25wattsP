@@ -1,0 +1,22 @@
+#section6{
+    height: 10vh;
+    width: 100%;
+    background-color: $color-footer;
+    
+    
+}
+#section6 .itemsec6{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+}
+
+#section6 .itemsec6 p{
+    color: white;
+    font-family: $font-roboto;
+    font-size: smaller;
+}

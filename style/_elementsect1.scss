@@ -1,0 +1,47 @@
+#section1 .elementsect1 .h1sect1{
+   color: $color-textsec1;
+   font-family: $font-poppins;
+   font-size: 34px;
+   font-weight: 600;
+   letter-spacing: 0.67px;
+   line-height: 150%;
+   height: 115px;
+   width: 600px;
+   padding-right: 700px;
+   padding-top: 210px;
+   
+   
+}
+
+#section1 .elementsect1 .h2sect1{
+   color: $color-textsec1;
+   font-family: $font-roboto;
+   font-size: 10px;
+   letter-spacing: 0.24px;
+   height: 42px;
+   width: 340px;
+   padding-top: 35px;
+   margin-bottom: 40px;
+   
+   
+}
+
+#section1 .elementsect1 button {
+   width: 130px;
+   height: 40px;
+   background-color: $color-orange1;
+   border-radius: 25px;
+   border: none;
+   
+   
+}
+
+#section1 .elementsect1 button .buttonsec1{
+   color: $color-textsec1;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.21px;
+   text-decoration: none;
+   padding-top: 20px;
+   
+   
+}

@@ -1,0 +1,100 @@
+#section5{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-color: $color-gray;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#section5 .bordersect5{
+    background-color: $color-darkgray;
+    width: 500px;
+    
+}
+
+#section5 .form5{
+    position: relative;
+    height: 50vh;
+    width: 594px;
+
+    top: 100px;
+    left: 120px;
+}
+#section5 .form5 .form5_1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+    
+    
+}
+#section5 .form5 .form5_1 .form_group .form_input{
+    border-style: none;
+    background-color: $color-gray;
+    width: 450px;
+    height: 25px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid $color-darkgray;
+    color: black;
+    padding-left: 60px;
+    position: relative;
+    
+    
+}
+#section5 .form5 .form5_1 .form5_1_1{
+    font-family: $font-poppins;
+    font-size: 40px;
+    line-height: 110%;
+    margin-bottom: 80px;
+}
+    
+#section5 .form5 .form5_1 .form_group label{
+    
+    position: absolute;
+    z-index: 1;
+    
+    font-family: $font-roboto;
+    color: $color-fulldark;
+    
+}  
+    
+    
+
+#section5 .form5 .form5_1 .form_group #message{
+    height: 80px;
+    
+    
+    
+    
+}
+#section5 .form5 .form5_1 .form_group .form_input ::placeholder{
+    font-family: $font-roboto;
+    color: $color-darkgray;
+    
+    
+    
+}
+
+#section5 .form5 .form5_2{
+    position: absolute;
+    left: 650px;
+    top: 100px;
+}
+
+
+#section5 .form5 .send input{
+
+    //@include mixin-btn25watts;
+     width: 130px;
+     height: 40px;
+     background-color: $color-orange1;
+     border: none;
+     border-radius: 25px;
+     color: $color-textsec1;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 0.21px;
+     text-decoration: none;
+     margin-top: 10px;
+   
+}

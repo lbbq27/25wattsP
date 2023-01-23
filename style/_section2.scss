@@ -1,0 +1,62 @@
+#section2{
+    background-color: white;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+#section2 .elementsect2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 600px;
+    
+}
+
+#section2 .elementsect2 .itemsec2{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#section2 .elementsect2 .rectangle{
+    background-color: $color-orange1;
+    color: $color-orange1;
+    width: 30px;
+    height: 390px;
+}
+#section2 .elementsect2 .itemsec2 .textsec2{
+    display: flex;
+    flex-direction: column;
+    line-height:260% ;
+    padding-top: 40px;
+}
+
+#section2 .elementsect2 .itemsec2 .textsec2 .itemsec2A{
+    color: black;
+    font-family: $font-poppins;
+    font-size: 40px;
+    letter-spacing: 0.60px;
+}
+#section2 .elementsect2 .itemsec2 .textsec2 .itemsec2B{
+    color: $color-orange1;
+    font-family: $font-poppins;
+    font-size: 40px;
+    letter-spacing: 0.60px;
+    margin-bottom: 60px;
+}
+#section2 .elementsect2 .itemsec2 .paragraphsec2{
+
+    height: 200px;
+    width: 600px;
+    font-family: $font-roboto;
+    font-size: 12.5px;
+    letter-spacing: 0.25px;
+    line-height: 180%;
+
+    
+}

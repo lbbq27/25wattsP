@@ -1,0 +1,15 @@
+//@import 'mixins';
+
+@import 'variable'; /* the order is important... the variables need to be over the rest*/
+
+@import 'section1';
+@import 'section2';
+@import 'logo25w';
+@import 'navmenu';
+@import 'elementsect1';
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'section6';
+
+

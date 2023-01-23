@@ -1,0 +1,11 @@
+@mixin btn25watts{
+    width: 130px;
+    height: 40px;
+    background-color: $color-orange1;
+    border: none;
+    border-radius: 25px;
+    color: $color-textsec1;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.21px;
+    text-decoration: none;
+}
